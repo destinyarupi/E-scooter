@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px 0px;
+    color: #42454A;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    font-size: 14px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.center-nav > ul > li:nth-of-type(2) {
+    padding: 0 30px;
+}
+
+.right-nav > ul > li:first-of-type {
+    padding-right: 30px;
+}
+
+.right-nav > ul > li:last-of-type {
+    color: #fff;
+    background-color: #42454A;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#hero .row .col:first-of-type {
+    width: 45vw;
+}
+
+#hero .row .col:last-of-type {
+    width: 55vw;
+}
+
+#hero .row .col:first-of-type {
+    padding-left: 60px;
+}
+
+img {
+    width: -webkit-fill-available;
+}
+
+#hero h1 {
+    font-size: 80px;
+    /* margin-bottom: 130px; */
+    font-weight: 100;
+}
+
+#hero h1 span {
+    font-weight: bold;
+}
+
+.vertical-line {
+    width: 320px;
+    margin: 60px 0 50px;
+    height: 4px;
+    background-color: #42454A;
+    border-radius: 5px;
+}
+
+.simple {
+    max-width: 260px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.bottom-ctn {
+    display: flex;
+    align-items: center;
+}
+
+.hero-btn, .hero-video {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-btn {
+    margin-right: 50px;
+}
+
+.hero-video div{
+    max-width: 80px;
+}
+
+#hero .hero-video p {
+    max-width: 90px;
+}
+
+.hero-btn button {
+    background-color: #42454A;
+    padding: 17px;
+    border: none;
+    margin-right: 18px;
+}
+
+.hero-btn button i {
+    color: white;
+}
+
+.video{
+    line-height: 20px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.buy {
+    font-weight: bold;
+    color: #17181A;
+}
+
+#hero .row .col:last-of-type {
+    position: relative;
+}
+
+.arch {
+    background-color: #DBDBDB;
+    height: 416px;
+    width: 416px;
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    border-radius: 50% 0 0 50%;
+    bottom: 30px;
+}
+
+.numbers {
+    font-family: "Calistoga", serif;
+    color: #fff;
+    padding-right: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: -50px;
+}
+
+.numbers span:first-of-type {
+    -webkit-text-stroke: 1px #8B938D;
+    font-size: 120px;
+    padding-right: 30px;
+}
+
+.numbers span:last-of-type .fa-chevron-left, .numbers span:last-of-type .fa-chevron-right {
+    border: 1px solid #42454A;
+    padding: 15px 19px;
+    color: #42454A;
+    font-size: 10px;
+}
+
+.numbers span:last-of-type .fa-chevron-left {
+    border-radius: 50% 0 0 50%;
+}
+
+.numbers span:last-of-type .fa-chevron-right {
+    border-radius: 0 50% 50% 0;
+}
+
+#stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+
+.weight, .speed, .range, .torque, .climbing, .brake {
+    text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
+}
+
+.figure, .unit {
+    font-weight: bold;
+}
+
+.figure {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.figure .unit {
+    font-size: 13px;
+}
+
+.spec {
+    font-size: 12px;
+}
+
+#product-info, #high-efficiency {
+    padding: 0 60px;
+    margin-top: 80px;
+}
+
+#assessories {
+    margin-top: 80px;
+}
+
+.product-info-details, .high-efficiency-details, .assessories-details {
+    text-align: center;
+}
+
+.product-info-details h1, .high-efficiency-details h1, .assessories-details h1 {
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+#product-info .row {
+    justify-content: start;
+}
+
+#product-info .row .col:first-of-type {
+    padding-right: 50px;
+}
+
+#assessories .row .pad:first-of-type {
+    padding-left: 120px;
+}
+
+#assessories .row .pad2 {
+    padding-right: 150px;
+}
+
+#assessories .row .pad:last-of-type {
+    padding-right: 60px;
+}
+
+#product-info .row .col:last-of-type ul li, #assessories .row .col:last-of-type ul li, #assessories .row .col:first-of-type ul li {
+    padding-bottom: 50px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.img-container {
+    width: 60px;
+    padding-right: 20px;
+}
+
+.more-assessories {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.more-assessories p {
+    display: inline-block;
+    font-size: 25px;
+    padding: 20px 50px;
+    font-weight: bold;
+    border: 1px solid #42454A;
+    border-radius: 10px;
+}
+
+
+#assessories .row .col h1 {
+    padding-bottom: 35px;
+    font-size: 32px;
+}
+
+#assessories .row:first-of-type {
+    margin-top: 50px;
+}
+
